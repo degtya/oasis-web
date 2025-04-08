@@ -1,0 +1,37 @@
+/* Základní typografie a layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: #111;
+  }
+  
+  a {
+    color: #014690;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    border-radius: 6px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .my-container {
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+  }
+  

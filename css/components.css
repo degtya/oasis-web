@@ -1,0 +1,194 @@
+  /* Navigace */
+  .nav-link {
+    font-weight: 500;
+    color: #333 !important;
+    margin-right: 10px;
+  }
+  .nav-link:hover {
+    color: #000 !important;
+  }
+  
+  
+  footer {
+    font-size: 0.9rem;
+    background-color: #222;
+    color: #ccc;
+  }
+  
+  footer a {
+    color: #ccc;
+  }
+  footer a:hover {
+    color: #fff;
+  }
+  
+  form .form-label {
+    font-weight: 500;
+    color: #444;
+  }
+  
+/* Header */
+.site-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    padding: 5px 0;
+  }
+  
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .site-header .logo {
+    height: 55px;
+  }
+  
+  .main-nav {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .main-nav a:hover {
+    color: #000;
+  }
+  
+  
+  /* Footer */
+  .site-footer {
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+    font-size: 0.95rem;
+    color: #555;
+    max-width: 1000px;
+    padding: 20px;
+  }
+  .site-footer a {
+    color: #555;
+  }
+  .site-footer a:hover {
+    color: #000;
+  }
+  
+    /* Footer */
+  .hero {
+    position: relative;
+    background-image: url("../images/byt-centrum.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75); /* světlý filtr */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 800px;
+    color: #111;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.15rem;
+    line-height: 1.6;
+  }  
+  .site-header.hero-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border-bottom: none;
+    z-index: 10;
+    padding: 15px 0;
+  }
+  
+  .hero-header .main-nav a {
+    color: #000000 !important;
+  }
+  .hero-header .main-nav a:hover {
+    color: #989898 !important;
+  }
+  
+    /* Offer */
+  .offer-section {
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .offer-box {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .offer-box img {
+    max-height: 280px;
+    object-fit: cover;
+  }
+  
+  .offer-box h3 {
+    margin-top: 15px;
+    font-size: 1.4rem;
+  }
+  
+  .offer-box a {
+    color: #003268;
+    text-decoration: none;
+  }
+  
+  .offer-box a:hover {
+    text-decoration: underline;
+  }
+  
+    /* Gallery */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    padding: 10px;
+  }
+  
+  .gallery-grid a {
+    display: block;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .gallery-grid a:hover {
+    transform: scale(1.02);
+  }
+  
