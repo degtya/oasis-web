@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://degtya.github.io/oasis-web/sitemap.xml
