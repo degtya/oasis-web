@@ -3,55 +3,105 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Nepotřebné styly -->
+  <meta name="google-site-verification" content="sYx0a2hFBEJ5TO4R1f1rK9lXdM1NeXEuY0XXP6UVIE8" />
+
+  <title>Oasis a.s. – Pronájem nemovitostí v Havířově</title>
+  <meta name="description" content="Pronajímáme byty a domy v Havířově. Najděte si ideální bydlení v klidné lokalitě Moravskoslezského kraje.">
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D8BBQX1S3C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-D8BBQX1S3C');
+</script>
+
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
-
-  <style>
-    body::before {
-      content: " ";
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d6/Ocean_waves_animated.gif');
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      opacity: 0.03;
-      z-index: -1;
-    }
-  </style>
-
-  <!-- Blokující JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script>
-    // Umělé zpomalení hlavního vlákna
-    const blockStart = performance.now();
-    while (performance.now() - blockStart < 2000) {}
-  </script>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="canonical" href="https://degtya.github.io/oasis-web/" />
 </head>
-
 <body>
-  <header class="text-center p-4 bg-dark text-white">
-    <h1>Oasis a.s. – Pronájem nemovitostí v Havířově</h1>
+
+  <header class="site-header hero-header">
+    <div class="my-container header-flex">
+      <a href="index.html">
+        <img src="images/logo.png" alt="Oasis a.s. logo" class="logo">
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Domů</a>
+        <a href="byty.html">Byty</a>
+        <a href="domy.html">Domy</a>
+        <a href="o-nas.html">O nás</a>
+        <a href="kontakty.html">Kontakty</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="container mt-5">
-    <h2 class="mb-4">Naše nabídka</h2>
-    <div class="row">
-      <div class="col-md-6 text-center">
-        <img src="images/byt-centrum2.webp" alt="Byt v Havířově" width="400">
-        <h3>Byty</h3>
-        <p>Široká nabídka od garsonek až po apartmány.</p>
-      </div>
-      <div class="col-md-6 text-center">
-        <img src="images/dum-sumbark6.webp" alt="Dům v Havířově" width="400">
-        <h3>Domy</h3>
-        <p>Rodinné domy s garáží a zahradou.</p>
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Pronájem nemovitostí v Havířově</h1>
+        <p>
+          Společnost <strong>Oasis a.s.</strong> nabízí pronájem bytů a domů v Havířově a okolí.
+          Profesionální přístup, kvalitní správa nemovitostí a široká nabídka moderních prostor.
+        </p>
       </div>
     </div>
+  </section>
+
+  <main>
+    <div class="container mt-5">
+      <h2 class="text-center mb-5">Naše nabídka</h2>
+      <div class="row">
+        <!-- Byty -->
+        <div class="col-md-6 text-center">
+          <a href="byty.html" class="d-block image-box mb-3">
+            <img src="images/byt-centrum2.webp" alt="Byty k pronájmu Havířov" loading="lazy">
+          </a>
+          <h3><a href="byty.html">Byty</a></h3>
+          <p>Od garsonek až po rodinné apartmány v různých lokalitách Havířova.</p>
+        </div>
+
+        <!-- Domy -->
+        <div class="col-md-6 text-center">
+          <a href="domy.html" class="d-block image-box mb-3">
+            <img src="images/dum-sumbark6.webp" alt="Domy k pronájmu Havířov" loading="lazy">
+          </a>
+          <h3><a href="domy.html">Domy</a></h3>
+          <p>Prostorné rodinné domy a vily s garáží, zahradou a pohodlím v Havířově a okolí.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="container mt-5">
+      <h2 class="text-center mb-4">Proč si vybrat právě nás?</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="images/icon-map.svg" alt="Lokalita Havířov" width="100" class="mb-3">
+          <h4>Havířov a okolí</h4>
+          <p>Jsme lokální experti. Známe každý kout Havířova a pomůžeme vám najít ideální bydlení ve vaší oblíbené čtvrti.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="images/icon-experience.svg" alt="Zkušenosti" width="100" class="mb-3">
+          <h4>15 let zkušeností</h4>
+          <p>Více než dekádu pomáháme lidem najít nové domovy. Naše zkušenosti přetavujeme ve spolehlivé služby bez stresu.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="images/icon-care.svg" alt="Individuální přístup" width="100" class="mb-3">
+          <h4>Osobní přístup</h4>
+          <p>Každý klient je pro nás důležitý. Nabízíme rychlé jednání, přátelskou komunikaci a transparentní podmínky.</p>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="text-center py-4 mt-5 bg-dark text-white">
-    <p>Kontakt: info@oasis-havirov.cz | © 2025 Oasis a.s.</p>
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-1">© 2025 Oasis a.s.</p>
+    <p class="mb-0">Kontakt: <a href="mailto:info@oasis-havirov.cz" class="text-white">info@oasis-havirov.cz</a> | Tel.: +420 123 456 789</p>
   </footer>
+
 </body>
 </html>
