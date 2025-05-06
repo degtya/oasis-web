@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     flatpickr("#datum", {
-      minDate: "today", // uživatel nemůže vybrat minulost
+      minDate: "today",
       dateFormat: "d.m.Y",
       altInput: true,
       altFormat: "j. F Y",
